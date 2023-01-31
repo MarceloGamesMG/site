@@ -10,7 +10,7 @@ export default function Conteudo() {
         <div className="flex flex-col justify-center items-center w-[320px] md:w-[1000px] pt-20 pb-20">
             <h1 className='text-xl md:text-6xl font-minhaFonte'>Nossos produtos</h1>
 
-            <div className='mt-20  md:mt-28 flex items-center justify-center bg-second-tema-site
+            <div className='mt-20 md:mt-28 flex items-center justify-center bg-second-tema-site
             h-full p-1 drop-shadow-verdeB outline-double outline-second-tema-site'>
                 <FontAwesomeIcon icon={faGamepad} className='h-10 ' />
             </div>
