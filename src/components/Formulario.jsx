@@ -21,7 +21,7 @@ export default function Formulario() {
 
     return (
         <div id='form' className='flex flex-col justify-center items-center w-screen pb-20'>
-            <h1 className='text-xl md:text-6xl font-minhaFonte '>Contato</h1>
+            <h1 className='text-4xl md:text-6xl font-minhaFonte '>Contato</h1>
             <div className='flex flex-col md:flex-row justify-center items-center py-20 gap-10'>
 
                 <div className="w-72 md:w-96">

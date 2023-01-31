@@ -7,8 +7,8 @@ import video from "../../public/video.jpg"
 
 export default function Conteudo() {
     return (
-        <div id='produtos' className="flex flex-col justify-center items-center w-[320px] md:w-[1000px] pt-10 pb-20 bg-zinc-800">
-            <h1 className='text-xl md:text-6xl font-minhaFonte'>Nossos produtos</h1>
+        <div id='produtos' className="flex flex-col justify-center items-center w-[320px] md:w-[1000px] pb-20 bg-zinc-800">
+            <h1 className='text-4xl md:text-6xl font-minhaFonte'>Nossos produtos</h1>
 
             <div className='mt-20 md:mt-28 flex items-center justify-center bg-second-tema-site
             h-full p-1 mb-20 md:mb-0 drop-shadow-verdeB outline-double outline-second-tema-site'>
