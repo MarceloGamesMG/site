@@ -24,8 +24,8 @@ export default function Home() {
       <Inicio />
       <SobreNos />
       <Conteudo />
-      <Formulario />
       <Baependi />
+      <Formulario />
       <Footer />
     </div>
   )
