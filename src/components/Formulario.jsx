@@ -22,9 +22,9 @@ export default function Formulario() {
     return (
         <div id='form' className='flex flex-col justify-center items-center w-screen'>
             <h1 className='text-xl md:text-6xl font-minhaFonte '>Contato</h1>
-            <div className='flex justify-center items-center py-20 gap-10'>
+            <div className='flex flex-col md:flex-row justify-center items-center py-20 gap-10'>
 
-                <div className="w-96">
+                <div className="w-72 md:w-96">
                     <form
                         onSubmit={sendEmail}
                         className="flex flex-col p-4 bg-tema-site px-4  border-double border-4 border-second-tema-site text-second-tema-site"
@@ -64,7 +64,7 @@ export default function Formulario() {
                         />
                     </form>
                 </div>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14801.659052887257!2d-44.8887302!3d-21.9570391!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf252c24f3303d082!2sMarcelo%20Games!5e0!3m2!1spt-BR!2sbr!4v1675190839925!5m2!1spt-BR!2sbr" width="500" height="350" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14801.659052887257!2d-44.8887302!3d-21.9570391!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf252c24f3303d082!2sMarcelo%20Games!5e0!3m2!1spt-BR!2sbr!4v1675190839925!5m2!1spt-BR!2sbr" allowfullscreen="" loading="lazy " className='w-80 md:w-96 h-96' referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
             <div className='flex justify-center items-center gap-10'>
                 <Link href='/??' className='flex items-center justify-center bg-second-tema-site

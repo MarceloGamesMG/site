@@ -16,7 +16,7 @@ export default function Conteudo() {
             </div>
             <div className='flex flex-col md:flex-row justify-center items-center gap-10 md:gap-20 pt-10 md:border-b-2 border-second-tema-site h-72 pb-20'>
                 <div>
-                    <Image src={video} alt='foto dos serviços' className=" outline-double outline-second-tema-site" />
+                    <Image src={video} alt='foto dos serviços' className=" outline-double outline-second-tema-site w-72 md:w-[800px]" />
                 </div>
 
                 <div>
@@ -39,7 +39,7 @@ export default function Conteudo() {
                     <p className='text-center md:text-start'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda numquam nobis explicabo esse delectus incidunt molestias iste corrupti veritatis laudantium culpa odio, at excepturi? Hic dignissimos nisi enim ratione illo!</p>
                 </div>
                 <div>
-                    <Image src={video} alt='foto dos serviços' className=" outline-double outline-second-tema-site" />
+                    <Image src={video} alt='foto dos serviços' className=" outline-double outline-second-tema-site w-72 md:w-[800px]" />
                 </div>
             </div>
             <div className='mt-20 md:mt-28 flex items-center justify-center bg-second-tema-site
@@ -49,7 +49,7 @@ export default function Conteudo() {
 
             <div className='flex flex-col md:flex-row justify-center items-center  gap-10 md:gap-20 pt-10 md:border-b-2 border-second-tema-site h-72 pb-20 '>
                 <div>
-                    <Image src={video} alt='foto dos serviços' className=" outline-double outline-second-tema-site" />
+                    <Image src={video} alt='foto dos serviços' className=" outline-double outline-second-tema-site w-72 md:w-[800px]" />
                 </div>
                 <div>
                     <h1 className='text-xl md:text-4xl font-minhaFonte text-center md:text-start'>
@@ -71,7 +71,7 @@ export default function Conteudo() {
                     <p className='text-center md:text-start'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda numquam nobis explicabo esse delectus incidunt molestias iste corrupti veritatis laudantium culpa odio, at excepturi? Hic dignissimos nisi enim ratione illo!</p>
                 </div>
                 <div>
-                    <Image src={video} alt='foto dos serviços' className=" outline-double outline-second-tema-site" />
+                    <Image src={video} alt='foto dos serviços' className=" outline-double outline-second-tema-site w-72 md:w-[800px]" />
                 </div>
             </div>
             <div className='mt-20 md:mt-28 flex items-center justify-center bg-second-tema-site
@@ -81,7 +81,7 @@ export default function Conteudo() {
 
             <div className='flex flex-col md:flex-row justify-center items-center  gap-10 md:gap-20 pt-10 md:border-b-2 border-second-tema-site h-72 pb-20'>
                 <div>
-                    <Image src={video} alt='foto dos serviços' className=" outline-double outline-second-tema-site" />
+                    <Image src={video} alt='foto dos serviços' className=" outline-double outline-second-tema-site w-72 md:w-[800px]" />
                 </div>
                 <div>
                     <h1 className='text-xl md:text-4xl font-minhaFonte text-center md:text-start'>
@@ -104,7 +104,7 @@ export default function Conteudo() {
                     <p className='text-center md:text-start'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda numquam nobis explicabo esse delectus incidunt molestias iste corrupti veritatis laudantium culpa odio, at excepturi? Hic dignissimos nisi enim ratione illo!</p>
                 </div>
                 <div>
-                    <Image src={video} alt='foto dos serviços' className=" outline-double outline-second-tema-site" />
+                    <Image src={video} alt='foto dos serviços' className=" outline-double outline-second-tema-site w-72 md:w-[800px]" />
                 </div>
             </div>
             <div className='mt-20 md:mt-28 flex items-center justify-center bg-second-tema-site
@@ -114,7 +114,7 @@ export default function Conteudo() {
 
             <div className='flex flex-col md:flex-row justify-center items-center  gap-10 md:gap-20 pt-10 md:border-b-2 border-second-tema-site h-72 pb-20'>
                 <div>
-                    <Image src={video} alt='foto dos serviços' className=" outline-double outline-second-tema-site" />
+                    <Image src={video} alt='foto dos serviços' className=" outline-double outline-second-tema-site w-72 md:w-[800px]" />
                 </div>
                 <div>
                 <h1 className='text-xl md:text-4xl font-minhaFonte text-center md:text-start'>
@@ -138,7 +138,7 @@ export default function Conteudo() {
                     <p className='text-center md:text-start'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda numquam nobis explicabo esse delectus incidunt molestias iste corrupti veritatis laudantium culpa odio, at excepturi? Hic dignissimos nisi enim ratione illo!</p>
                 </div>
                 <div>
-                    <Image src={video} alt='foto dos serviços' className=" outline-double outline-second-tema-site" />
+                    <Image src={video} alt='foto dos serviços' className=" outline-double outline-second-tema-site w-72 md:w-[800px]" />
                 </div>
 
             </div>
