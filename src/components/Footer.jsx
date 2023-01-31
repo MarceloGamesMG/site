@@ -4,7 +4,7 @@ import logo from "../../public/logo-sem-fundo.png"
 
 export default function () {
     return (
-        <div className="bg-bg2 bg-cover w-screen brightness-110 flex flex-col justify-center items-center border-second-tema-site drop-shadow-verde border-t-2">
+        <div className=" text-center bg-bg2 bg-cover w-screen brightness-110 flex flex-col justify-center items-center border-second-tema-site drop-shadow-verde border-t-2">
             <div className='flex flex-col md:flex-row justify-center items-center w-[320px] md:w-[1000px] md:gap-20'>
                 <Image src={logo} alt='logo empresa' className='w-44 md:w-44 h-full mt-10'/>
                 <div className="grid md:grid-cols-4 md:gap-28 w-[320px] md:w-[1000px]">

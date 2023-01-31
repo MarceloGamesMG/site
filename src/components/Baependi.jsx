@@ -1,6 +1,6 @@
 export default function Baependi() {
     return (
-        <div id='baependi' className="flex flex-col justify-center items-center w-[320px] md:w-[1000px] pt-20 pb-20">
+        <div id='baependi' className="flex flex-col justify-center items-center w-[320px] md:w-[1000px] pb-20">
             <h1 className='text-4xl md:text-6xl font-minhaFonte mb-20'>Baependi</h1>
             <p className='text-center md:text-start'>
                 A localidade sul mineira fundada por bandeirantes, no final do séc. XVII, situada na Serra de Santa Maria, conserva casarões e igrejas centenárias ao longo de suas ladeiras. Na praça central, a Igreja Matriz Nossa Senhora de Montserrat (1754), encanta pela beleza de seu interior, e pela diversidade de detalhes da arte sacra.<br />
