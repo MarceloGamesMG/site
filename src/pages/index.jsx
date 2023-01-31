@@ -1,10 +1,10 @@
 import Head from 'next/head'
 import { Inter } from '@next/font/google'
 import Inicio from '@/components/Inicio'
-import Corta from '@/components/Corta'
-import CortaF from '@/components/CortaF'
 import Conteudo from '@/components/Conteudo'
 import Footer from '@/components/Footer'
+import SobreNos from '@/components/SobreNos'
+import Baependi from '@/components/Baependi'
 
 
 const inter = Inter({ subsets: ['latin'] })
@@ -18,9 +18,11 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      
+
       <Inicio />
+      <SobreNos />
       <Conteudo />
+      <Baependi />
       <Footer />
     </div>
   )

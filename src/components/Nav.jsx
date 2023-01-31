@@ -47,19 +47,20 @@ export default function Nav() {
                         </div>
                         <ul className="MENU-LINK-MOBILE-OPEN  bg-tema-site space-y-2  text-second-tema-site font-bold flex flex-col items-center w-screen h-screen">
                             <li className="border w-72 text-center  border-second-tema-site rounded-md mt-20  text-xl">
-                                <Link href="/" className="font-bold block p-2">Início</Link>
+                                <Link href="/"  onClick={() => setIsNavOpen(false)}className="font-bold block p-2">Início</Link>
                             </li>
                             <li className="border w-72 text-center border-second-tema-site rounded-md  text-xl">
-                                <Link href="/sobre" className="font-bold block p-2">Sobre nós</Link>
+                                <Link href="#sobre" onClick={() => setIsNavOpen(false)}className="font-bold block p-2">Sobre nós</Link>
                             </li>
                             <li className="border w-72 text-center  border-second-tema-site rounded-md  text-xl">
-                                <Link href="/cidade" className="font-bold block p-2">São Lourenço</Link>
+                                <Link href="#produtos" onClick={() => setIsNavOpen(false)}className="font-bold block p-2">Nossos Produtos</Link>
                             </li>
-                            <li className="border w-72 text-center border-second-tema-site rounded-md  text-xl">
-                                <Link href="/imoveis" className="font-bold block p-2">Imóveis</Link>
+                            <li className="border w-72 text-center  border-second-tema-site rounded-md  text-xl">
+                                <Link href="#baependi" onClick={() => setIsNavOpen(false)}className="font-bold block p-2">Baependi</Link>
                             </li>
+                            
                             <li className="border w-72 text-center border-second-tema-site rounded-md text-xl">
-                                <Link href="/contato " className="font-bold block p-2">Contato</Link>
+                                <Link href="/contato" onClick={() => setIsNavOpen(false)} className="font-bold block p-2">Contato</Link>
                             </li>
                             <div className='flex justify-center items-center gap-10'>
                                 <Link href='/??' className='flex items-center justify-center bg-second-tema-site
@@ -82,16 +83,24 @@ export default function Nav() {
                             <p className="hover:text-second-tema-site hover:font-bold  text-sm ">Início</p></Link>
                     </li>
                     <li className="w-28 flex justify-center items-center text-center">
-                        <Link href="/sobre " className="hover:transition hover:drop-shadow-verdeB"
+                        <Link href="#sobre" className="hover:transition hover:drop-shadow-verdeB"
                         >
                             <p className="hover:text-second-tema-site hover:font-bold  hover:transition drop-shadow-dark1 text-sm">
                                 Sobre nós
                             </p>
                         </Link>
                     </li>
+                    <li className="flex justify-center items-center text-center">
+                        <Link href="#produtos" className="hover:transition hover:drop-shadow-verdeB"
+                        >
+                            <p className="hover:text-second-tema-site hover:font-bold  hover:transition drop-shadow-dark1 text-sm">
+                                Nossos Produtos
+                            </p>
+                        </Link>
+                    </li>
                     <li className="w-28 flex justify-center items-center text-center">
-                        <Link href="/cidade" className="hover:transition hover:drop-shadow-verdeB">
-                            <p className="hover:text-second-tema-site hover:font-bold  hover:transition drop-shadow-dark1 text-sm">São Lourenço</p>
+                        <Link href="#baependi" className="hover:transition hover:drop-shadow-verdeB">
+                            <p className="hover:text-second-tema-site hover:font-bold  hover:transition drop-shadow-dark1 text-sm">Baependi</p>
                         </Link>
                     </li>
 
