@@ -5,6 +5,8 @@ import Conteudo from '@/components/Conteudo'
 import Footer from '@/components/Footer'
 import SobreNos from '@/components/SobreNos'
 import Baependi from '@/components/Baependi'
+import Formulario from '@/components/Formulario'
+import Wpp from '@/components/Wpp'
 
 
 const inter = Inter({ subsets: ['latin'] })
@@ -18,10 +20,11 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
+      <Wpp />
       <Inicio />
       <SobreNos />
       <Conteudo />
+      <Formulario />
       <Baependi />
       <Footer />
     </div>
