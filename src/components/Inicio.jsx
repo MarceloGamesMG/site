@@ -6,7 +6,7 @@ import ellie from "../../public/ellie.jpeg"
 
 export default function Inicio() {
     return (
-        <div className='bg-bg2 bg-cover bg-no-repeat w-screen border-second-tema-site drop-shadow-verde border-b-2 flex justify-center items-center  md:pt-5'>
+        <div className='bg-bg2 bg-cover bg-no-repeat brightness-110 w-screen border-second-tema-site drop-shadow-verde border-b-2 flex justify-center items-center  md:pt-5'>
             <div className="md:w-[1000px]">
                 <Nav />
                 <div className='flex flex-col md:flex-row md:pt-20 items-center justify-center gap-20 pt-5 pb-16 text-center '>
