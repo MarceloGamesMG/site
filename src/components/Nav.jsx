@@ -79,33 +79,33 @@ export default function Nav() {
                 <ul className="DESKTOP-MENU hidden  md:flex md:justify-between w-[1000px] md:items-center text-white font-bold items-center" >
                     <Image src={logo} alt='logo da empresa' className='w-44' />
                     <li className="flex justify-center items-center text-center">
-                        <Link href="/" className="hover:transition hover:drop-shadow-verdeB">
-                            <p className="hover:text-second-tema-site hover:font-bold  text-sm ">Início</p></Link>
+                        <a href="#inicio" className="hover:transition hover:drop-shadow-verdeB">
+                            <p className="hover:text-second-tema-site hover:font-bold  text-sm ">Início</p></a>
                     </li>
                     <li className="w-28 flex justify-center items-center text-center">
-                        <Link href="#sobre" className="hover:transition hover:drop-shadow-verdeB"
+                        <a href="#sobre" className="hover:transition hover:drop-shadow-verdeB"
                         >
                             <p className="hover:text-second-tema-site hover:font-bold  hover:transition drop-shadow-dark1 text-sm">
                                 Sobre nós
                             </p>
-                        </Link>
+                        </a>
                     </li>
                     <li className="flex justify-center items-center text-center">
-                        <Link href="#produtos" className="hover:transition hover:drop-shadow-verdeB"
+                        <a href="#produtos" className="hover:transition hover:drop-shadow-verdeB"
                         >
                             <p className="hover:text-second-tema-site hover:font-bold  hover:transition drop-shadow-dark1 text-sm">
                                 Nossos Produtos
                             </p>
-                        </Link>
+                        </a>
                     </li>
                     <li className="w-28 flex justify-center items-center text-center">
-                        <Link href="#baependi" className="hover:transition hover:drop-shadow-verdeB">
+                        <a href="#baependi" className="hover:transition hover:drop-shadow-verdeB">
                             <p className="hover:text-second-tema-site hover:font-bold  hover:transition drop-shadow-dark1 text-sm">Baependi</p>
-                        </Link>
+                        </a>
                     </li>
-                     <Link href='#form'>          
+                     <a href='#form'>          
                     <Botao informacao={"Contato"} />
-                    </Link> 
+                    </a> 
                 </ul>
             </nav>
             <style>{`

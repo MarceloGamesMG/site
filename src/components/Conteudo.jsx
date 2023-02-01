@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faClock, faComputer, faGamepad, faMobileAlt, faMobilePhone, faMusic, faPersonRifle, faShirt, faSmoking } from "@fortawesome/free-solid-svg-icons";
+import { faClock, faComputer, faGamepad, faMobileAlt, faMusic, faPersonRifle, faShirt, faSmoking } from "@fortawesome/free-solid-svg-icons";
 
 import Image from "next/image";
 import video from "../../public/video.jpg"

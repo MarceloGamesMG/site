@@ -7,6 +7,7 @@ import SobreNos from '@/components/SobreNos'
 import Baependi from '@/components/Baependi'
 import Formulario from '@/components/Formulario'
 import Wpp from '@/components/Wpp'
+import BotaoVolta from '@/components/BotaoVolta'
 
 
 const inter = Inter({ subsets: ['latin'] })
@@ -21,6 +22,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Wpp />
+      <BotaoVolta/>
       <Inicio />
       <SobreNos />
       <Conteudo />
