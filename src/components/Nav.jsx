@@ -60,7 +60,7 @@ export default function Nav() {
                             </li>
                             
                             <li className="border w-72 text-center border-second-tema-site rounded-md text-xl">
-                                <Link href="/contato " className="font-bold block p-2">Contato</Link>
+                                <Link href="#form" className="font-bold block p-2">Contato</Link>
                             </li>
                             <div className='flex justify-center items-center gap-10'>
                                 <Link href='/??' className='flex items-center justify-center bg-second-tema-site
