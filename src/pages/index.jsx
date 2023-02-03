@@ -10,6 +10,7 @@ import Wpp from '@/components/Wpp'
 import BotaoVolta from '@/components/BotaoVolta'
 
 
+
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {

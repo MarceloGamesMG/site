@@ -29,7 +29,7 @@ export default function Nav() {
 
                     <div className={isNavOpen ? "showMenuNav" : "hideMenuNav"} >
                         <div
-                            className="CROSS-ICON absolute top-0 right-10 "
+                            className="CROSS-ICON top-0 right-10 absolute z-50"
                             onClick={() => setIsNavOpen(false)} // change isNavOpen state to false to close the menu
                         >
                             <svg
@@ -62,14 +62,14 @@ export default function Nav() {
                             <li className="border w-72 text-center border-second-tema-site rounded-md text-xl">
                                 <Link href="#form" className="font-bold block p-2">Contato</Link>
                             </li>
-                            <div className='flex justify-center items-center gap-10'>
-                                <Link href='/??' className='flex items-center justify-center bg-second-tema-site
-            h- p-1 drop-shadow-verdeB outline-double outline-second-tema-site'>
-                                    <FontAwesomeIcon icon={faInstagram} className='h-5 text-branco' />
+                            <div className='flex justify-center items-center pt-5 gap-10'>
+                                <Link href='https://www.instagram.com/marcelogamesmg/'target='blank' className='flex items-center justify-center bg-second-tema-site
+            h-10 w-10 p-1 drop-shadow-verdeB outline-double outline-second-tema-site'>
+                                    <FontAwesomeIcon icon={faInstagram} className=' text-branco' />
                                 </Link>
-                                <Link href='/??' className='flex items-center justify-center bg-second-tema-site
-            h- p-1 drop-shadow-verdeB outline-double outline-second-tema-site'>
-                                    <FontAwesomeIcon icon={faFacebook} className='h-5 text-branco' />
+                                <Link href='https://www.instagram.com/marcelogamesmg/'target='blank' className='flex items-center justify-center bg-second-tema-site
+            h-10 w-10 p-1 drop-shadow-verdeB outline-double outline-second-tema-site'>
+                                    <FontAwesomeIcon icon={faFacebook} className=' text-branco' />
                                 </Link>
                             </div>
                         </ul>
