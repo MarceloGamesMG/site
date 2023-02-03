@@ -12,18 +12,18 @@ export default function Inicio() {
                 <div className=' flex flex-col md:flex-row md:pt-20 items-center justify-center pt-5 text-center '>
                     <div className="space-y-10 md:w-[534px] md:text-start">
                         <h1 className="text-2xl text-center md:text-6xl font-bold font-minhaFonte">
-                            Lorem ipsum dolor sit.
+                            Produtos para o seu dia a dia
                         </h1>
                         <h2 className='text-center'>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, facilis consequatur nesciunt expedita, quos distinctio
+                        Loja de acessórios para celulares, computadores, armas de airsoft e chumbinho, controles para videogames e muito mais!
                         </h2>
                         <div className='flex items-center justify-center pb-20'>
-                        <Botao informacao={"Ler mais"} />
+                            <Botao informacao={"Ler mais"} />
                         </div>
                     </div>
-                    
+
                 </div>
-                
+
             </div>
         </div>
     )
