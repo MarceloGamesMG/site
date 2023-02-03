@@ -104,7 +104,7 @@ export default function Nav() {
                         </a>
                     </li>
                      <a href='#form'>          
-                    <Botao informacao={"Contato"} />
+                    <Botao informacao={"Contato"} link={"#form"} />
                     </a> 
                 </ul>
             </nav>
