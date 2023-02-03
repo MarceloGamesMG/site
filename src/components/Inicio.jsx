@@ -14,11 +14,11 @@ export default function Inicio() {
                         <h1 className="text-2xl text-center md:text-6xl font-bold font-minhaFonte">
                             Produtos para o seu dia a dia
                         </h1>
-                        <h2 className='text-center'>
+                        <h2 className='text-center text-xl'>
                         Loja de acessórios para celulares, computadores, armas de airsoft e chumbinho, controles para videogames e muito mais!
                         </h2>
                         <div className='flex items-center justify-center pb-20'>
-                            <Botao informacao={"Ler mais"} />
+                            <Botao informacao={"Conheça nossos produtos"} />
                         </div>
                     </div>
 
