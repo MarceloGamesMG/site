@@ -70,7 +70,7 @@ export default function Formulario() {
                 <Link href='https://www.instagram.com/marcelogamesmg/'target='blank' className='flex blank items-center justify-center bg-second-tema-site w-10 h-10 p-1 drop-shadow-verdeB outline-double outline-second-tema-site'>
                     <FontAwesomeIcon icon={faInstagram} className=' text-branco' />
                 </Link>
-                <Link href='/??' className='flex items-center justify-center bg-second-tema-site w-10 h-10 p-1 drop-shadow-verdeB outline-double outline-second-tema-site'>
+                <Link href='https://www.facebook.com/marcelogamesmg' target='blank' className='flex items-center justify-center bg-second-tema-site w-10 h-10 p-1 drop-shadow-verdeB outline-double outline-second-tema-site'>
                     <FontAwesomeIcon icon={faFacebook} className=' text-branco' />
                 </Link>
             </div>

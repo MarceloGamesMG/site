@@ -63,11 +63,11 @@ export default function Nav() {
                                 <Link href="#form" className="font-bold block p-2">Contato</Link>
                             </li>
                             <div className='flex justify-center items-center pt-5 gap-10'>
-                                <Link href='https://www.instagram.com/marcelogamesmg/'target='blank' className='flex items-center justify-center bg-second-tema-site
+                                <Link href='https://www.instagram.com/marcelogamesmg/' target='blank' className='flex items-center justify-center bg-second-tema-site
             h-10 w-10 p-1 drop-shadow-verdeB outline-double outline-second-tema-site'>
                                     <FontAwesomeIcon icon={faInstagram} className=' text-branco' />
                                 </Link>
-                                <Link href='https://www.instagram.com/marcelogamesmg/'target='blank' className='flex items-center justify-center bg-second-tema-site
+                                <Link href='https://www.facebook.com/marcelogamesmg' target='blank' className='flex items-center justify-center bg-second-tema-site
             h-10 w-10 p-1 drop-shadow-verdeB outline-double outline-second-tema-site'>
                                     <FontAwesomeIcon icon={faFacebook} className=' text-branco' />
                                 </Link>
