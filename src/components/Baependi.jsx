@@ -2,7 +2,7 @@ export default function Baependi() {
     return (
         <div id='baependi' className="flex flex-col justify-center items-center w-[320px] md:w-[1000px] pb-20">
             <h1 className='text-4xl md:text-6xl font-minhaFonte mb-20'>Baependi</h1>
-            <p className='text-center md:text-start'>
+            <p className='text-center'>
                 A localidade sul mineira fundada por bandeirantes, no final do séc. XVII, situada na Serra de Santa Maria, conserva casarões e igrejas centenárias ao longo de suas ladeiras. Na praça central, a Igreja Matriz Nossa Senhora de Montserrat (1754), encanta pela beleza de seu interior, e pela diversidade de detalhes da arte sacra.<br />
 
                 A cidade é circundada por vastas áreas de preservação ambiental, com destaque para o Parque Estadual da Serra do Papagaio, com diversas trilhas, corredeiras e cachoeiras utilizadas para o lazer e para o esporte de aventura.<br />
@@ -13,7 +13,7 @@ export default function Baependi() {
 
                 Clima:O clima do município é o tropical de altitude. Possui verão bem definido e inverno pouco chuvoso. A temperatura média anual é de 20,6° C.
                 <br /><br />
-                <span className='font-bold'>Feriados Locais:</span> <br /><br />
+                <span className='font-bold text-second-tema-site drop-shadow-verdeB'>Feriados Locais:</span> <br /><br />
 
                 – Dia da Emancipação Político-administrativa: 02 de maio<br />
 
