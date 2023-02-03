@@ -64,7 +64,7 @@ export default function Formulario() {
                         />
                     </form>
                 </div>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14801.659052887257!2d-44.8887302!3d-21.9570391!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf252c24f3303d082!2sMarcelo%20Games!5e0!3m2!1spt-BR!2sbr!4v1675190839925!5m2!1spt-BR!2sbr" allowfullscreen="" loading="lazy " className='w-80 md:w-96 h-96' referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14801.659052887257!2d-44.8887302!3d-21.9570391!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf252c24f3303d082!2sMarcelo%20Games!5e0!3m2!1spt-BR!2sbr!4v1675190839925!5m2!1spt-BR!2sbr" allowfullscreen="" loading="lazy " className='w-80 md:w-full h-80' referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
             <div className='flex justify-center items-center gap-10'>
                 <Link href='https://www.instagram.com/marcelogamesmg/'target='blank' className='flex blank items-center justify-center bg-second-tema-site w-10 h-10 p-1 drop-shadow-verdeB outline-double outline-second-tema-site'>
