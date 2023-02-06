@@ -1,14 +1,13 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faClock, faComputer, faGamepad, faMobileAlt, faMusic, faPersonRifle, faShirt, faSmoking } from "@fortawesome/free-solid-svg-icons";
-
+import { faClock, faComputer, faGamepad, faMobileAlt, faMusic, faPersonRifle, faShirt } from "@fortawesome/free-solid-svg-icons";
 import Image from "next/image";
-import video from "../../public/video.jpg"
-import air from "../../public/air.jpeg"
-import computador from "../../public/computador.jpeg"
-import caixaSon from "../../public/caixaSon.jpeg"
-import celular from "../../public/celular.jpeg"
-import camisa from "../../public/camisa.jpeg"
-import relogio from "../../public/relogio.jpeg"
+import video from "../../public/video.jpg";
+import air from "../../public/air.jpeg";
+import computador from "../../public/computador.jpeg";
+import caixaSon from "../../public/caixaSon.jpeg";
+import celular from "../../public/celular.jpeg";
+import camisa from "../../public/camisa.jpeg";
+import relogio from "../../public/relogio.jpeg";
 
 
 export default function Conteudo() {
@@ -16,18 +15,17 @@ export default function Conteudo() {
         <div id='produtos' className="flex flex-col justify-center items-center w-[320px] md:w-[1000px] pb-20 ">
             <h1 className='text-4xl md:text-6xl font-minhaFonte'>Nossos produtos</h1>
 
-
             <div className='flex flex-col justify-center items-center gap-10 md:gap-20 pt-10'>
 
                 <div className=' md:mt-10 flex items-center justify-center bg-second-tema-site
              p-1 drop-shadow-verdeB outline-double outline-second-tema-site'>
                     <FontAwesomeIcon icon={faGamepad} className='h-10' />
                 </div>
-                <div className="flex flex-col md:flex-row gap-20 border-b-2 border-second-tema-site md:h-72 pb-20 pt-20 md:pb-44 md:w-[1000px] px-5 justify-center items-center">
+                <div className="flex flex-col md:flex-row gap-20 border-b-2 border-second-tema-site md:h-72 pb-20 pt-20 md:pb-44 md:w-[1000px] px-5 justify-center items-center w-[320px]">
                     <div className='md:w-[800px] flex justify-center items-center'>
                         <Image src={video} alt='foto dos serviços' className=" outline-double outline-second-tema-site w-96 h-60" />
                     </div>
-                    <div className='flex w-1/2 flex-col justify-center items-center'>
+                    <div className='flex w-1/2 flex-col justify-center items-center '>
                         <h1 className='text-xl md:text-4xl font-minhaFonte text-center md:text-start'>
                             Video Games
                         </h1>
@@ -40,7 +38,7 @@ export default function Conteudo() {
              p-1 drop-shadow-verdeB outline-double outline-second-tema-site'>
                     <FontAwesomeIcon icon={faPersonRifle} className='h-10' />
                 </div>
-                <div className="flex flex-col md:flex-row gap-20 border-b-2 border-second-tema-site md:h-72 pb-20 pt-20 md:pb-44 md:w-[1000px] px-5 justify-center items-center">
+                <div className="flex flex-col md:flex-row gap-20 border-b-2 border-second-tema-site md:h-72 pb-20 pt-20 md:pb-44 w-[320px] md:w-[1000px] px-5 justify-center items-center">
 
                     <div className='flex w-1/2 flex-col justify-center items-center'>
                         <h1 className='text-xl md:text-4xl font-minhaFonte text-center md:text-start'>
@@ -58,7 +56,7 @@ export default function Conteudo() {
              p-1 drop-shadow-verdeB outline-double outline-second-tema-site'>
                     <FontAwesomeIcon icon={faComputer} className='h-10' />
                 </div>
-                <div className="flex flex-col md:flex-row gap-20 border-b-2 border-second-tema-site md:h-72 pb-20 pt-20 md:pb-44 md:w-[1000px] px-5 justify-center items-center">
+                <div className="flex flex-col md:flex-row gap-20 border-b-2 border-second-tema-site md:h-72 pb-20 pt-20 md:pb-44 w-[320px] md:w-[1000px] px-5 justify-center items-center">
                     <div className='md:w-[800px] flex justify-center items-center'>
                         <Image src={computador} alt='foto dos serviços' className=" outline-double outline-second-tema-site w-96 h-60" />
                     </div>
@@ -76,7 +74,7 @@ export default function Conteudo() {
              p-1 drop-shadow-verdeB outline-double outline-second-tema-site'>
                     <FontAwesomeIcon icon={faMobileAlt} className='h-10' />
                 </div>
-                <div className="flex flex-col md:flex-row gap-20 border-b-2 border-second-tema-site md:h-72 pb-20 pt-20 md:pb-44 md:w-[1000px] px-5 justify-center items-center">
+                <div className="flex flex-col md:flex-row gap-20 border-b-2 border-second-tema-site md:h-72 pb-20 pt-20 md:pb-44 w-[320px] md:w-[1000px] px-5 justify-center items-center">
 
                     <div className='flex w-1/2 flex-col justify-center items-center'>
                         <h1 className='text-xl md:text-4xl font-minhaFonte text-center md:text-start'>
@@ -95,7 +93,7 @@ export default function Conteudo() {
              p-1 drop-shadow-verdeB outline-double outline-second-tema-site'>
                     <FontAwesomeIcon icon={faMusic} className='h-10' />
                 </div>
-                <div className="flex flex-col md:flex-row gap-20 border-b-2 border-second-tema-site md:h-72 pb-20 pt-20 md:pb-44 md:w-[1000px] px-5 justify-center items-center">
+                <div className="flex flex-col md:flex-row gap-20 border-b-2 border-second-tema-site md:h-72 pb-20 pt-20 md:pb-44 w-[320px] md:w-[1000px] px-5 justify-center items-center">
                     <div className='md:w-[800px] flex justify-center items-center'>
                         <Image src={caixaSon} alt='foto dos serviços' className=" outline-double outline-second-tema-site w-96 h-60" />
                     </div>
@@ -113,7 +111,7 @@ export default function Conteudo() {
              p-1 drop-shadow-verdeB outline-double outline-second-tema-site'>
                     <FontAwesomeIcon icon={faClock} className='h-10' />
                 </div>
-                <div className="flex flex-col md:flex-row gap-20 border-b-2 border-second-tema-site md:h-72 pb-20 pt-20 md:pb-44 md:w-[1000px] px-5 justify-center items-center">
+                <div className="flex flex-col md:flex-row gap-20 border-b-2 border-second-tema-site md:h-72 pb-20 pt-20 md:pb-44 w-[320px] md:w-[1000px] px-5 justify-center items-center">
 
                     <div className='flex w-1/2 flex-col justify-center items-center'>
                         <h1 className='text-xl md:text-4xl font-minhaFonte text-center md:text-start'>
@@ -132,7 +130,7 @@ export default function Conteudo() {
              p-1 drop-shadow-verdeB outline-double outline-second-tema-site'>
                     <FontAwesomeIcon icon={faShirt} className='h-10' />
                 </div>
-                <div className="flex flex-col md:flex-row gap-20 border-b-2 border-second-tema-site md:h-72 pb-20 pt-20 md:pb-44 md:w-[1000px] px-5 justify-center items-center">
+                <div className="flex flex-col md:flex-row gap-20 border-b-2 border-second-tema-site md:h-72 pb-20 pt-20 md:pb-44 w-[320px] md:w-[1000px] px-5 justify-center items-center">
                     <div className='md:w-[800px] flex justify-center items-center'>
                         <Image src={camisa} alt='foto dos serviços' className=" outline-double outline-second-tema-site w-96 h-60" />
                     </div>
