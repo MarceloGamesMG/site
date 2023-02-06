@@ -109,16 +109,17 @@ export default function Nav() {
         display: none;
       }
       .showMenuNav {
-        display: block;
-        position: absolute;
+        display:block;
+        position: fixed;
         height: 100vh;
+        overflow: hidden;
         top: 0;
         left: 0;
         z-index: 10;
-        display: flex;
         flex-direction: column;
         justify-content: space-evenly;
         align-items: center;
+        
       }
       .nonActive {
         color: white;
