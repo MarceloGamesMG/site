@@ -13,72 +13,26 @@ export default function () {
                 <Image src={logo} alt='logo empresa' className='w-44 md:w-44 h-full mt-10' />
                 <div className="grid md:grid-cols-4 md:gap-28 w-[320px] md:w-[1000px]">
                     <div className="flex flex-col items-center justify-center pt-10">
-                        <Link href="/??" className="text-2xl font-bold mb-5">
-                            teste
-                        </Link>
-                        <Link href="/??" className="">
-                            teste
-                        </Link>
-                        <Link href="/??" className="">
-                            teste
-                        </Link>
-                        <Link href="/??" className="">
-                            teste
-                        </Link>
-                        <Link href="/??" className="">
-                            teste
-                        </Link>
+                        <a href="/" className="text-lg font-bold mb-5">
+                            Início
+                        </a>
                     </div>
                     <div className="flex flex-col items-center justify-center pt-10">
-                        <Link href="/??" className="text-2xl font-bold mb-5">
-                            teste
-                        </Link>
-                        <Link href="/??" className="">
-                            teste
-                        </Link>
-                        <Link href="/??" className="">
-                            teste
-                        </Link>
-                        <Link href="/??" className="">
-                            teste
-                        </Link>
-                        <Link href="/??" className="">
-                            teste
-                        </Link>
+                        <a href="/#sobre" className="text-lg font-bold mb-5">
+                            Sobre nós
+                        </a>
+                       
                     </div>
                     <div className="flex flex-col items-center justify-center pt-10">
-                        <Link href="/??" className="text-2xl font-bold mb-5">
-                            teste
-                        </Link>
-                        <Link href="/??" className="">
-                            teste
-                        </Link>
-                        <Link href="/??" className="">
-                            teste
-                        </Link>
-                        <Link href="/??" className="">
-                            teste
-                        </Link>
-                        <Link href="/??" className="">
-                            teste
-                        </Link>
+                        <a href="/#produtos" className="text-lg font-bold mb-5">
+                            Nossos Produtos
+                        </a>      
                     </div>
                     <div className="flex flex-col items-center justify-center pt-10">
-                        <Link href="/??" className="text-2xl font-bold mb-5">
-                            teste
+                        <Link href="/#baependi" className="text-lg font-bold mb-5">
+                            Baependi
                         </Link>
-                        <Link href="/??" className="">
-                            teste
-                        </Link>
-                        <Link href="/??" className="">
-                            teste
-                        </Link>
-                        <Link href="/??" className="">
-                            teste
-                        </Link>
-                        <Link href="/??" className="">
-                            teste
-                        </Link>
+                        
                     </div>
 
                 </div>

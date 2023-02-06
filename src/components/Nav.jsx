@@ -10,7 +10,7 @@ export default function Nav() {
 
 
     return (
-        <div className=" flex justify-between items-center  ">
+        <div className=" flex justify-between items-center overscroll-contain  ">
 
             <nav className="drop-shadow-dark1 z-20 w-[320px]">
                 <section className="MOBILE-MENU md:hidden ">
@@ -45,7 +45,7 @@ export default function Nav() {
                                 <line x1="6" y1="6" x2="18" y2="18" />
                             </svg>
                         </div>
-                        <ul className="MENU-LINK-MOBILE-OPEN  bg-tema-site space-y-2  text-second-tema-site font-bold flex flex-col items-center w-screen h-screen">
+                        <ul className="MENU-LINK-MOBILE-OPEN  bg-tema-site space-y-2  text-second-tema-site font-bold flex flex-col items-center w-screen  h-screen ">
                             <li className="border w-72 text-center  border-second-tema-site rounded-md mt-20  text-xl">
                                 <Link href="/"  onClick={() => setIsNavOpen(false)}className="font-bold block p-2">Início</Link>
                             </li>
@@ -77,11 +77,7 @@ export default function Nav() {
                 </section>
 
                 <ul className="DESKTOP-MENU hidden  md:flex md:justify-between w-[1000px] md:items-center text-white font-bold items-center" >
-                    <Image src={logo} alt='logo da empresa' className='w-44' />
-                    <li className="flex justify-center items-center text-center">
-                        <a href="#inicio" className="hover:transition hover:drop-shadow-verdeB">
-                            <p className="hover:text-second-tema-site hover:font-bold  text-sm ">Início</p></a>
-                    </li>
+                    <Image src={logo} alt='logo da empresa' className='w-44' />           
                     <li className="w-28 flex justify-center items-center text-center">
                         <a href="#sobre" className="hover:transition hover:drop-shadow-verdeB"
                         >
@@ -104,7 +100,7 @@ export default function Nav() {
                         </a>
                     </li>
                      <a href='#form'>          
-                    <Botao informacao={"Contato"} link={"#form"} />
+                    <Botao informacao={"Como chegar"} link={"#form"} />
                     </a> 
                 </ul>
             </nav>
