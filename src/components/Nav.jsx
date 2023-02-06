@@ -56,11 +56,11 @@ export default function Nav() {
                                 <Link href="#produtos" onClick={() => setIsNavOpen(false)}className="font-bold block p-2">Nossos Produtos</Link>
                             </li>
                             <li className="border w-72 text-center  border-second-tema-site rounded-md  text-xl">
-                                <Link href="#baependi" className="font-bold block p-2">Baependi</Link>
+                                <Link href="#baependi" onClick={() => setIsNavOpen(false)} className="font-bold block p-2">Baependi</Link>
                             </li>
                             
                             <li className="border w-72 text-center border-second-tema-site rounded-md text-xl">
-                                <Link href="#form" className="font-bold block p-2">Contato</Link>
+                                <Link href="#form" onClick={() => setIsNavOpen(false)}  className="font-bold block p-2">Como chegar</Link>
                             </li>
                             <div className='flex justify-center items-center pt-5 gap-10'>
                                 <Link href='https://www.instagram.com/marcelogamesmg/' target='blank' className='flex items-center justify-center bg-second-tema-site
