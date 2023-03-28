@@ -45,7 +45,7 @@ export default function Nav() {
                                 <line x1="6" y1="6" x2="18" y2="18" />
                             </svg>
                         </div>
-                        <ul className="MENU-LINK-MOBILE-OPEN  bg-tema-site space-y-2 text-second-tema-site font-bold flex flex-col items-center  w-screen h-screen">
+                        <ul className="MENU-LINK-MOBILE-OPEN  bg-tema-site space-y-2 text-second-tema-site font-bold flex flex-col items-center w-screen h-screen">
                             <li className="border w-72 text-center  border-second-tema-site rounded-md mt-20  text-xl">
                                 <Link href="/" onClick={() => setIsNavOpen(false)} className="font-bold block p-2">Início</Link>
                             </li>
